@@ -1,0 +1,5 @@
+In this lecture your exercise is to calculate and show the total population associated with the given countries one by one.
+
+Hint: the population of a country is the sum of the populations of its cities
+
+Good luck!
