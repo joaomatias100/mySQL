@@ -1,0 +1,21 @@
+In this lecture you have to construct 2 database tables: CUSTOMER and PURCHASE tables.
+
+THE CUSTOMER TABLE:
+
+it has a customer_id that is a primary key,
+
+a customer_name that is a variable-length string
+
+and an age parameter.
+
+THE PURCHASE TABLE:
+
+It tracks the purchases by the customers - which means that a given purchase will store a reference to a given customer with the help of a foreign key.
+
+it has a purchase_id that is an auto incremented primary key
+
+it has a foreign key as far as the customer is concerned.
+
+We have to define what happens to the PURCHASE table (child table) when we change something in the CUSTOMER table (parent table). In this case (instead of cascading) we set the field value to be a NULL - it can be done with the SET NULL keywords.
+
+Good luck!
