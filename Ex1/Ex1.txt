@@ -1,1 +1,13 @@
+In this exercise you have to do the following:
 
+create a database table for EMPLOYEEs - with integer id, with variable-length string for the name, a fixed length string with 3 letters for the country code (as nationality) and an employee_type enum type (employee, manager and CEO types).
+
+later on we come to the conclusion that the id must be a primary key with auto increment feature
+
+and we have to add an additional column to the gender - with two possible values male and female
+
+let's insert 5 arbitrary emloyees into the database table
+
+remove all employees from the USA
+
+Good luck!
