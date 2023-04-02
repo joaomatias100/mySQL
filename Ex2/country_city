@@ -1,6 +1,10 @@
 --
 -- Table structure for table Country
 --
+CREATE DATABASE Ex2;
+
+USE Ex2;
+
 CREATE TABLE Country (
   code char(3) NOT NULL DEFAULT '',
   name char(52) NOT NULL DEFAULT '',
