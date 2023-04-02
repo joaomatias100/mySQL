@@ -3,7 +3,7 @@ CREATE DATABASE Ex1;
 USE Ex1;
 
 CREATE TABLE Employee(
-	employee_id int,
+    employee_id int,
     employee_name varchar(30) not null,
     employee_country char(3) not null,
     employee_type enum('CEO','employer','manager') not null
