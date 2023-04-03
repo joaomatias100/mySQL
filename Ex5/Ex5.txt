@@ -1,0 +1,24 @@
+In this exercise you have 2 database tables: employee and customer.
+
+
+
+CREATE TABLE employee (
+	first_name VARCHAR(20),
+    last_name VARCHAR(20)
+);
+ 
+INSERT INTO employee VALUES("Kevin", "Spacey");
+INSERT INTO employee VALUES("Joe", "Ranger");
+ 
+CREATE TABLE customer (
+	f_name VARCHAR(20),
+    l_name VARCHAR(20)
+);
+ 
+INSERT INTO customer VALUES("Peter", "Thiel");
+INSERT INTO customer VALUES("Elon", "Musk");
+So you have these database tables and your task is to create a query with the concatenated first name and last name values (this column is called full_name). 
+Finally you can sort the full_names in alphabetical order.
+
+
+Good luck!
