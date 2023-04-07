@@ -1,0 +1,10 @@
+In this exercise you task is to create a view (student_view) that has 2 columns:
+
+name of the person from the PERSON database table
+
+name of the university (from UNIVERSITY table) the given person is attending
+
+Hint: you have to join multiple database tables.
+
+Good luck!
+
